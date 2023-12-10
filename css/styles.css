@@ -1,11 +1,7 @@
 /* Base styles */
 body {
+  font-family: 'Raleway','Roboto', sans-serif;
 }
 ul {
   list-style-type: none;
-  font-family: Roboto;
-Roboto Medium
-Roboto Regular
-Raleway Bold
-Roboto Bold
 }
