@@ -4,6 +4,7 @@ body {
   font-family: 'Raleway', 'Roboto', sans-serif;
   width: 1440px;
 }
+
 h1,
 h2,
 h3,
@@ -14,68 +15,119 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 a {
   color: currentColor;
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .header {
 }
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.logo-style-header {
+  color: #2e2f42;
+}
+
 .header-menu {
 }
+
 .header-menu-item {
 }
+
 .header-address {
 }
+
 .header-adress-item {
 }
+
 .hero {
 }
+
 .hero-title {
 }
+
 .hero-button {
 }
+
 .features {
 }
+
 .features-list {
 }
+
 .features-item {
 }
+
 .features-title {
 }
+
 .features-text {
 }
+
 .company-employees {
 }
+
 .company-employees-title {
 }
+
 .company-employees-list {
 }
+
 .company-employees-card {
 }
+
 .company-employees-name {
 }
+
 .company-employees-specialty {
 }
+
 .portfolio {
 }
+
 .portfolio-title {
 }
+
 .portfolio-list {
 }
+
 .portfolio-card {
 }
+
 .portfolio-types {
 }
+
 .portfolio-types-clarification {
 }
+
 .footer {
 }
-.logo {
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
+
+.logo-style-footer {
+  color: #f4f4fd;
+}
+
 .footer-text {
 }
