@@ -66,10 +66,10 @@ section {
   letter-spacing: 0.32px;
   padding: 24px 0;
 }
-.header-menu-item:hover {
+.hover:hover {
   color: #404bbf;
 }
-.header-menu-item:focus {
+.hover:focus {
   color: #404bbf;
 }
 .header-address {
