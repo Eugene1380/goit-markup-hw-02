@@ -27,9 +27,24 @@ ul {
   padding: 0;
 }
 
-.header {
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* Header */
+.header {
+  width: 1440px;
+  height: 72px;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
 .logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -40,94 +55,205 @@ ul {
   text-transform: uppercase;
   margin-right: 76px;
 }
-
 .logo-style-header {
   color: #2e2f42;
 }
-
-.header-menu {
+.header-menu,
+.header-contacts {
+  font-style: normal;
 }
-
 .header-menu-item {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
-.header-address {
+.header-contacts-item {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  padding: 24px 0;
 }
 
-.header-adress-item {
+.header-menu-item:hover,
+.header-menu-item:focus,
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: #404bbf;
 }
 
+/* Hero */
 .hero {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
-
 .hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
-
 .hero-button {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
+/* Features */
 .features {
+  background-color: #fff;
+  margin: 0 auto;
 }
-
-.features-list {
-}
-
-.features-item {
-}
-
 .features-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.features-title-item {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 8px;
+}
 .features-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
+/* Team */
 .company-employees {
+  background-color: #f4f4fd;
 }
-
 .company-employees-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
-
 .company-employees-list {
+  background-color: #f4f4fd;
 }
-
 .company-employees-card {
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
 .company-employees-name {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
-
 .company-employees-specialty {
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
+/* Portfolio */
 .portfolio {
+  background-color: #fff;
 }
-
 .portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
-
-.portfolio-list {
-}
-
 .portfolio-card {
+  width: calc((100% - 2 * 24px) / 3);
 }
-
 .portfolio-types {
+  margin-top: 32px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
-
 .portfolio-types-clarification {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
+/* Footer */
 .footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .logo-style-footer {
   color: #f4f4fd;
 }
-
 .footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
 }
