@@ -78,7 +78,9 @@ section {
 }
 
 .header-menu-item:hover,
-.header-menu-item:focus,
+.header-menu-item:focus {
+  color: #404bbf;
+}
 .header-contacts-item:hover,
 .header-contacts-item:focus {
   color: #404bbf;
@@ -102,6 +104,8 @@ section {
   margin-bottom: 48px;
 }
 .hero-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
@@ -152,7 +156,7 @@ section {
   width: calc((100% - 3 * 24px) / 4);
 }
 .features-title-item {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
