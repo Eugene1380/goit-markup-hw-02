@@ -3,8 +3,7 @@ body {
   color: #434455;
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
-  width: 1440px;
-}
+  }
 
 h1,
 h2,
@@ -35,7 +34,6 @@ section {
 
 /* Header */
 .header {
-  width: 1440px;
   background: #fff;
 }
 .logo {
@@ -104,7 +102,6 @@ section {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
   margin-bottom: 48px;
 }
 .hero-button {
@@ -118,7 +115,7 @@ section {
   cursor: pointer;
   padding: 16px 32px;
   border: none;
-  min-width: 169px;
+  
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -140,7 +137,6 @@ section {
   text-transform: capitalize;
 }
 .visually-hidden {
-  width: 1px;
   margin: -1px;
   border: 0;
   white-space: nowrap;
@@ -250,5 +246,4 @@ section {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-}
+  }
