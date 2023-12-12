@@ -151,7 +151,6 @@ section {
   overflow: hidden;
 }
 .features-item {
-  width: calc((100% - 3 * 24px) / 4);
 }
 .features-title-item {
   color: #2e2f42;
@@ -188,7 +187,6 @@ section {
   background-color: #f4f4fd;
 }
 .company-employees-card {
-  width: calc((100% - 3 * 24px) / 4);
   background-color: #fff;
 }
 .company-employees-name {
@@ -222,7 +220,6 @@ section {
   margin-bottom: 72px;
 }
 .portfolio-card {
-  width: calc((100% - 2 * 24px) / 3);
 }
 .portfolio-types {
   margin-top: 32px;
