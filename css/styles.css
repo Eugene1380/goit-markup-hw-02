@@ -1,7 +1,8 @@
 /* Base styles */
 body {
+  color: #434455;
   background-color: #fff;
-  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 1440px;
 }
 
@@ -70,19 +71,22 @@ section {
   padding: 24px 0;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-contacts-item {
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
   padding: 24px 0;
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
+.header-menu-item:hover {
   color: #404bbf;
 }
-.header-contacts-item:hover,
-.header-contacts-item:focus {
+.header-contacts-item:hover {
   color: #404bbf;
 }
 
