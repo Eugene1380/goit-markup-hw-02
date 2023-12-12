@@ -28,11 +28,6 @@ ul {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -53,6 +48,9 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+}
+.logo:hover {
+  color: #404bbf;
 }
 .logo-style-header {
   color: #2e2f42;
@@ -77,7 +75,6 @@ section {
 .header-address {
   font-style: normal;
 }
-
 .header-contacts-item {
   color: #434455;
   line-height: 1.5;
