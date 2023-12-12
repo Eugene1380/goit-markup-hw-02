@@ -24,12 +24,10 @@ a {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
 }
 
 /* Header */
@@ -58,7 +56,6 @@ section {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 24px 0;
 }
 .header-menu .header-menu-item:hover {
   color: #404bbf;
@@ -74,7 +71,6 @@ section {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  padding: 24px 0;
 }
 .header-contact .header-contacts-item:hover {
   color: #404bbf;
@@ -93,9 +89,7 @@ section {
 /* Hero */
 .hero {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
+ }
 .hero-title {
   color: #fff;
   text-align: center;
@@ -113,7 +107,6 @@ section {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
-  padding: 16px 32px;
   border: none;
   
 }
@@ -153,7 +146,6 @@ section {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
   margin-bottom: 8px;
 }
 .features-text {
@@ -173,7 +165,6 @@ section {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
 }
@@ -233,8 +224,6 @@ section {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .footer-logo {
   margin-bottom: 16px;
