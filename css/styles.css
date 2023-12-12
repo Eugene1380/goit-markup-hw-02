@@ -85,6 +85,13 @@ section {
   color: #404bbf;
 }
 
+.header-menu-item:hover,
+.header-menu-item:focus,
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: #404bbf;
+}
+
 /* Hero */
 .hero {
   background-color: #2e2f42;
