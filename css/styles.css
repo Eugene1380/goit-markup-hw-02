@@ -62,7 +62,7 @@ section {
   letter-spacing: 0.32px;
   padding: 24px 0;
 }
-.header-menu-item:hover {
+.header-menu .header-menu-item:hover {
   color: #404bbf;
 }
 .header-menu-item:focus {
@@ -78,7 +78,7 @@ section {
   text-decoration: none;
   padding: 24px 0;
 }
-.header-contacts-item:hover {
+.header-contact .header-contacts-item:hover {
   color: #404bbf;
 }
 .header-contacts-item:focus {
