@@ -162,6 +162,7 @@ section {
   margin-bottom: 8px;
 }
 .features-text {
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -202,6 +203,7 @@ section {
   margin-bottom: 8px;
 }
 .company-employees-specialty {
+  color: #434455;
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -234,6 +236,7 @@ section {
   margin-bottom: 8px;
 }
 .portfolio-types-clarification {
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
