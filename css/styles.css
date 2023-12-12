@@ -65,10 +65,10 @@ section {
   letter-spacing: 0.32px;
   padding: 24px 0;
 }
-.hover:hover {
+.header-menu-item:hover {
   color: #404bbf;
 }
-.hover:focus {
+.header-menu-item:focus {
   color: #404bbf;
 }
 .header-address {
@@ -142,7 +142,6 @@ section {
   width: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
