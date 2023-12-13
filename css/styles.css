@@ -51,16 +51,16 @@ section {
 .header-contacts {
   font-style: normal;
 }
-.header-menu-item {
+.header-menu-link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.header-menu .header-menu-item:hover {
+.header-menu-item .header-menu-link:hover {
   color: #404bbf;
 }
-.header-menu-item:focus {
+.header-menu-link:focus {
   color: #404bbf;
 }
 .header-address {
